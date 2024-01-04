@@ -1,0 +1,221 @@
+/* body{
+    background: rgb(211, 206, 206);
+    display: flex;
+    justify-content: center;
+}
+
+#center{
+
+    height: auto;
+    width: 1100px;
+    background: white;
+    margin: 50px;
+    border-radius: 10px;
+    
+    
+}
+
+#top-center{
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+  margin-bottom: 30px;
+    text-decoration: underline;
+
+}
+
+#top-hedings{
+    font-family: sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    line-height:5px;
+    margin-left: 50px;
+}
+
+#first-line{
+ 
+    height: 18px;
+    width: 1000px;
+    background: #ceb1b1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 48px;
+}
+
+#tec-skill{
+    font-family: sans-serif ;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 50px;
+
+    
+}
+
+#second-line{
+    height: 18px;
+    width: 1000px;
+    background: #ceb1b1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 48px;
+}
+#education{
+    font-family: sans-serif ;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 50px; 
+}
+#third-line{
+    height: 18px;
+    width: 1000px;
+    background: #ceb1b1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 48px;
+}
+#projects{
+    font-family: sans-serif ;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 50px; 
+}
+#fourth-line{
+    height: 18px;
+    width: 1000px;
+    background: #ceb1b1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 48px;
+}
+#experience{
+    font-family: sans-serif ;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 50px; 
+}
+#fifth-line{
+    height: 18px;
+    width: 1000px;
+    background: #ceb1b1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 48px;
+}
+#skill{
+    font-family: sans-serif ;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 50px; 
+    margin-bottom: 50px;
+}
+ */
+
+
+
+
+
+
+
+ body {
+    background: rgb(211, 206, 206);
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    height: auto;
+    width: 90%; /* Adjusted width to make it more responsive */
+    max-width: 1100px; /* Added max-width to prevent it from becoming too wide on larger screens */
+    background: white;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+#top-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+#top-hedings {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 5px;
+    margin-left: 50px;
+}
+
+/* General styling for lines */
+#first-line,
+#second-line,
+ #third-line,
+ #fourth-line,
+ #fifth-line{
+    height: 18px;
+    width: 100%;
+    background: #ceb1b1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 0;
+}
+
+#first-line {
+    /* Add additional styling or override general styling if needed */
+}
+
+#tec-skill,
+#education,
+#projects,
+#experience,
+#skill {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 30px; /* Adjusted right margin for better spacing */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #center {
+        width: 90%; /* Adjusted width for smaller screens */
+        margin: 20px;
+    }
+
+    #top-hedings {
+        margin-left: 10px;
+    }
+
+    .line {
+        margin-left: 0;
+    }
+
+    #tec-skill,
+    #education,
+    #projects,
+    #experience,
+    #skill {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
